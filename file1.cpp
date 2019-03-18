@@ -19,16 +19,27 @@ cin>>m>>n;
 if(m>n)
 {
 minus=m-n;
+cout<<minus;
 }
 else
 {
 minus=n-m;
+cout<<minus;
 }
 }
+calc::void multiply()
+{
+cout<<"enter two no";
+cin>>m>>n;
+mul=m*n;
+cout<<mul;
+}
+
 void main()
 {
 calc c;
 c.addition();
 c.sub();
+c.multiply();
 }
 
